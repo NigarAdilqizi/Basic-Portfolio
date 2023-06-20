@@ -46,35 +46,39 @@ cursor: pointer;
 color: #777777;
 text-decoration: none;
 }
- hr{
+ hr,.hr2{
     height: 2.5px;
     border:none;
     background-color: #d5d2d2;
+}
+.hr2{
+    width: 611px;
+    margin-left: 0;
 }
 /*CONTENT*/
 #cont{
     background-image:url("./img/concrete_seamless.png");
     margin-top: -10px;
-    height: 691px;
+    height: 955px;
 }
 .content{
-    width: 698px;
+    width: 680px;
     margin: 10px auto;
     background-color: #ffffff;
-    height: 545px;
+    height: 888px;
     position: relative;
     top: 30px;
-    left: -203px;
+    left: -180px;
 }
 .content .left{
-    width: 678px;
+    width: 720px;
     float: left;
 }
 .content .left .box{
     padding: 33px;
 }
  h2{
-    font-size: 38px;
+    font-size: 36px;
     font-weight: bold;
     color: #4aaaa5;
     margin-bottom: 23px;
@@ -82,40 +86,44 @@ text-decoration: none;
 .content .left .box .bottom{
     margin-top: 23px;
 }
-.content .left .box .bottom img{
-    height: 184px;
-    width: 196px;
-    float: left;
+.content .left .box .bottom ul{
+
 }
-.content .left .box .bottom .right{
-    width: 200px;
-    float: left;
+.content .left .box .bottom ul li{
+    display: inline-block;
 }
-.content .left .box .bottom  .right p{
-    width: 341px;
+.content .left .box .bottom ul li .card{
+    width: 290px;
+    height: 200px;
+    padding-right: 25px;
+}
+.content .left .box .bottom ul li .card img{
+    width: 100%;
+    opacity: 0.8;
+}
+.content .left .box .bottom ul li .card .color{
+    height: 62px;
+    display: inline-block;
+    width: 100%;
+    background-color: #4aaaa5;
+    z-index: 9;
+    position: relative;
+    bottom: 76px;
+}
+.content .left .box .bottom ul li .card .color p{
+    color: white;
+    font-weight: 500;
     font-size: 21px;
-    color: #777777;
-    line-height: 2;
-    margin-top: -13px;
-    margin-left: 22px;
-}
-.content .left .box .bottom .right-bottom p{
-    margin-left: 0;
-    font-size: 20px;
-    color: #777777;
-    line-height: 2;
-    margin-top: 192px;
-}
-.content .left .box .bottom .right-bottom .p2{
-    margin-top: 24px;
+    text-align: center;
+    line-height: 2.8;
 }
  .content .sag{
     display: inline-block;
     position: absolute;
     background-color: #ffffff;
     height: 203px;
-    width: 315px;
-    margin-left: 90px;
+    width: 293px;
+    margin-left: 43px;
 }
  .content .sag .box{
     width: 280px;
@@ -135,7 +143,7 @@ text-decoration: none;
     margin-top: 17px;
 }
 .footer{
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 .footer .footer-top{
     background-color: #4fbbb6;

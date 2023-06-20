@@ -55,19 +55,19 @@ text-decoration: none;
 #cont{
     background-image:url("./img/concrete_seamless.png");
     margin-top: -10px;
-    height: 691px;
+    height: 642px;
 }
 .content{
-    width: 698px;
+    width: 588px;
     margin: 10px auto;
     background-color: #ffffff;
-    height: 545px;
+    height: 573px;
     position: relative;
     top: 30px;
-    left: -203px;
+    left: -235px;
 }
 .content .left{
-    width: 678px;
+    width: 580px;
     float: left;
 }
 .content .left .box{
@@ -82,32 +82,38 @@ text-decoration: none;
 .content .left .box .bottom{
     margin-top: 23px;
 }
-.content .left .box .bottom img{
-    height: 184px;
-    width: 196px;
-    float: left;
+.content .left .box .bottom form{
+  /* height: 400px; */
+  color: gray;
+  font-size: 19px;
 }
-.content .left .box .bottom .right{
-    width: 200px;
-    float: left;
-}
-.content .left .box .bottom  .right p{
-    width: 341px;
-    font-size: 21px;
-    color: #777777;
+.content .left .box .bottom form label{
+    display: block;
     line-height: 2;
-    margin-top: -13px;
-    margin-left: 22px;
 }
-.content .left .box .bottom .right-bottom p{
-    margin-left: 0;
-    font-size: 20px;
-    color: #777777;
-    line-height: 2;
-    margin-top: 192px;
+.content .left .box .bottom form input{
+    padding: 8px 8px;
+    width: 498px;
+    border: 1px solid #ccc;
 }
-.content .left .box .bottom .right-bottom .p2{
-    margin-top: 24px;
+.content .left .box .bottom form textarea{
+    border: 1px solid #ccc;
+}
+.content .left .box .bottom form .submit{
+    display: block;
+    text-decoration: none;
+    width: 107px;
+    text-align: center;
+    height: 35px;
+    line-height: 1.8;
+    color: white;
+    background-color:#4aaaa5;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.content .left .box .bottom form .submit:hover{
+    background-color: #3d8783;
+    cursor: pointer;
 }
  .content .sag{
     display: inline-block;
@@ -143,12 +149,12 @@ text-decoration: none;
 }
 .footer .footer-bottom{
     background-color: #666666;
-    height: 44px;
-    text-align: center;
+    height: 94px;
 }
 .footer .footer-bottom p{
     color: rgba(232, 226, 226,0.8);
     font-size: 14px;
-    line-height: 3;
+    line-height: 6;
+    text-align: center;
 }
 
